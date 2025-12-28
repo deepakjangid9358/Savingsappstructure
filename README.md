@@ -1,11 +1,40 @@
 
   # Savings App Structure
+│
+├── auth
+│   ├── LoginActivity
+│   ├── OtpActivity
+│
+├── kyc
+│   ├── PanVerification
+│   ├── AadhaarVerification
+│
+├── wallet
+│   ├── WalletDashboard
+│   ├── AddMoney
+│   ├── Withdraw
+│
+├── savings
+│   ├── CreateGoal
+│   ├── AutoSave
+│   ├── LockSavings
+│
+├── history
+│   ├── TransactionList
+│
+├── profile
+│   ├── UserProfile
+│   ├── BankDetails
+│
+├── support
+│   ├── HelpCenter
+│
+├── utils
+│   ├── ApiClient
+│   ├── Encryption
+│   ├── SessionManager
+│
+└── main
+    └── MainActivity
 
-  This is a code bundle for Savings App Structure. The original project is available at https://www.figma.com/design/Uwg1eZWf2yp8Q9smu7HVqS/Savings-App-Structure.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
   
